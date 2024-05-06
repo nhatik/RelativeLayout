@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#6200EE"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="1"
+        android:textColor="#FFFFFF" />
+
+    <!-- Tambahkan komponen lainnya -->
+
+    <Button
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="#6200EE"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="3"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60dp"
+        android:layout_toLeftOf="@+id/text3"
+        android:background="#6200EE"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="2"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:layout_marginTop="30dp"
+
+        android:layout_alignParentEnd="true"
+        android:background="#6200EE"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="4"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text4"
+        android:layout_marginTop="30dp"
+
+        android:background="#6200EE"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="5"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text4"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginRight="60dp"
+        android:layout_toLeftOf="@+id/text3"
+        android:background="#6200EE"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="6"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text5"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:background="#6200EE"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="7"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/text7"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:text="ATIK NURHAENI"
+        android:textSize="18sp" />
+
+</RelativeLayout>
